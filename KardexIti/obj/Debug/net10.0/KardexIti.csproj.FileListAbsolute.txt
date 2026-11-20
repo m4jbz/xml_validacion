@@ -16,3 +16,4 @@ C:\Users\marco\Dev\xml\KardexIti\obj\Debug\net10.0\KardexIti.genruntimeconfig.ca
 C:\Users\marco\Dev\xml\KardexIti\obj\Debug\net10.0\ref\KardexIti.dll
 C:\Users\marco\Dev\xml\KardexIti\bin\Debug\net10.0\KardexIti.runtimeconfig.dev.json
 C:\Users\marco\Dev\xml\KardexIti\obj\Debug\net10.0\KardexIti.csproj.Up2Date
+C:\Users\marco\Dev\xml\KardexIti\obj\Debug\net10.0\KardexIti.sourcelink.json
