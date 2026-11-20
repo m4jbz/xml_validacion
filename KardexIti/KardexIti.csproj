@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>KardexIti</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Kardex.xsd" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Resources\kardex_invalido.xml" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

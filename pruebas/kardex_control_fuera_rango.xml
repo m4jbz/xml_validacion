@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExpedienteAcademico periodo="AGO-DIC-2026">
+  <NumeroControl>22670401</NumeroControl>
+  <NombreCompleto>Juan Pérez López</NombreCompleto>
+  <Carrera>Ingeniería en Sistemas Computacionales</Carrera>
+  <Semestre>5</Semestre>
+  <Materias>
+    <Materia clave="SCD-1027">
+      <NombreMateria>Tópicos Avanzados de Programación</NombreMateria>
+      <Creditos>5</Creditos>
+      <Calificacion>92.5</Calificacion>
+      <Aprobada>true</Aprobada>
+    </Materia>
+    <Materia clave="SCC-1017">
+      <NombreMateria>Métodos Numéricos</NombreMateria>
+      <Creditos>4</Creditos>
+      <Calificacion>64.0</Calificacion>
+      <Aprobada>false</Aprobada>
+    </Materia>
+    <Materia clave="AEF-1031">
+      <NombreMateria>Fundamentos de Bases de Datos</NombreMateria>
+      <Creditos>5</Creditos>
+      <Calificacion>88.0</Calificacion>
+      <Aprobada>true</Aprobada>
+    </Materia>
+    <Materia clave="SCD-1022">
+      <NombreMateria>Simulación</NombreMateria>
+      <Creditos>5</Creditos>
+      <Calificacion>75.5</Calificacion>
+      <Aprobada>true</Aprobada>
+    </Materia>
+    <Materia clave="ACF-0905">
+      <NombreMateria>Ecuaciones Diferenciales</NombreMateria>
+      <Creditos>5</Creditos>
+      <Calificacion>58.0</Calificacion>
+      <Aprobada>false</Aprobada>
+    </Materia>
+  </Materias>
+</ExpedienteAcademico>
