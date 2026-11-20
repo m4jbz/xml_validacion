@@ -5,7 +5,7 @@
   Reglas violadas a propósito:
     1. NumeroControl con letras y sin el código 67.
     2. Carrera que no existe en la enumeración.
-    3. Semestre 10, fuera del rango 1 a 9.
+    3. Semestre 13, fuera del rango 1 a 12.
     4. Calificación de 150, fuera del rango 0.0 a 100.0.
     5. Créditos 8, fuera del rango 1 a 6.
     6. Aprobada con el valor "si", que no es booleano.
@@ -14,7 +14,7 @@
   <NumeroControl>22AB0154</NumeroControl>
   <NombreCompleto>María González Ruiz</NombreCompleto>
   <Carrera>Ingeniería en Medicina</Carrera>
-  <Semestre>10</Semestre>
+  <Semestre>13</Semestre>
   <Materias>
     <Materia clave="SCD-1027">
       <NombreMateria>Tópicos Avanzados de Programación</NombreMateria>

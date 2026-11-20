@@ -60,7 +60,7 @@ pruebas\kardex_control_fuera_rango.xml
 | `NumeroControl` | Año de ingreso (2 dígitos) + `67` + consecutivo de `0000` a `0400`. Patrón: `\d{2}67(0[0-3]\d{2}\|0400)`. |
 | `NombreCompleto` | De 5 a 100 caracteres. |
 | `Carrera` | Ingeniería en Informática, Ingeniería en Sistemas Computacionales o Ingeniería Industrial. |
-| `Semestre` | Entero de 1 a 9. |
+| `Semestre` | Entero de 1 a 12. |
 | `Materias` | De 1 a N elementos `Materia`; la `clave` no se puede repetir. |
 | `@clave` | Obligatoria, formato `AAA-0000` (por ejemplo `SCD-1027`). |
 | `Creditos` | Entero de 1 a 6. |
@@ -72,7 +72,7 @@ pruebas\kardex_control_fuera_rango.xml
 | Archivo | Resultado esperado |
 |---|---|
 | `kardex_valido.xml` (generado por la opción 1) | Válido. |
-| `KardexIti/Resources/kardex_invalido.xml` | 6 errores: número de control con letras, carrera inexistente, semestre 10, calificación 150, 8 créditos y `Aprobada` = `si`. |
+| `KardexIti/Resources/kardex_invalido.xml` | 6 errores: número de control con letras, carrera inexistente, semestre 13, calificación 150, 8 créditos y `Aprobada` = `si`. |
 | `pruebas/kardex_malformado.xml` | XML mal formado: `</Materia>` cierra a `<Materias>` en la línea 38. |
 | `pruebas/kardex_control_fuera_rango.xml` | Número de control `22670401`, uno más que el máximo por generación. |
 
